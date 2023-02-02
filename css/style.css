@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Pacifico & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Ms+Madi&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gloria+Hallelujah&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho a{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+body{
+    background-color: #7d0c4a;
+}
+h1{
+    color: #95d95a;
+    text-align: left;
+    padding: 5%;
+}
+
+.logo{
+    width: 10vw;
+}
+
+#logo{
+    margin-left: 10%;
+}
+
+.cabecalho{
+    margin: 1%;
+    display: flex;
+    background-color: #7d0c4a;
+}
+
+.links {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    font-size: 1vw;
+    padding-left: 170px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+h2{
+    padding: 20px;
+}
+
+.banner img{
+    width: 98.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 40vw;
+}
+
+.butao{
+    font-size: 2vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #7d0c4a;
+    width: 10vw;
+    height: 3vw;
+    border: 1px solid black;
+
+}
+fieldset{
+    border: 2px solid yellow
+}
+
+.formulario{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.ft{
+    width: 10vw;
+}
+
+.imgdecopos img{
+    width: 40em;
+    margin-left: 28.4%;
+    
+}
+
+.acai {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 1.4vw;
+    height: 24vw;
+    width: 52vw;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 26vw;
+    font-family: 'Fredoka One', cursive;
+    color: beige;
+}
+
+.copoum{
+    border: 1px solid #ffffff;
+    text-align: center;
+}
+
+.sobreeu{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.paragrafo{
+    font-size: 1.3vw;
+}
+.boneco{
+    width: 14%;
+    margin-left: 58vw;
+}
+
+.contatos{
+    text-align: center;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4vw;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+.numero{
+    margin-right: 5%;
+    color: #95d95a;
+}
+
+.imail{
+    margin-left: 5%;
+    color: antiquewhite;
+}
